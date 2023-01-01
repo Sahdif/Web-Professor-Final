@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>book</title>
+
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+   <link rel="stylesheet" href="css/style.css">
+
+
+   <script type="text/javascript"
+   src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+ emailjs.init("e7z_yyFeP3SpxqYIS");
+})();
+</script>
+
+
+</head>
+<body>
+   
+
+
+<section class="header">
+
+   <div class="logo-flex">
+
+   <a href="index.html" class="logo">Web Professor</a>
+   <img src="./images/logo.svg" width="50px">
+
+   </div>
+   <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact Us</a>
+   </nav>
+
+   <div id="menu-btn" class="fas fa-bars"></div>
+
+</section>
+
+
+
+<div class="heading" style="background:url(images/contact-cover.png) no-repeat">
+   <h1>Contact Us</h1>
+</div>
+
+
+
+<section class="booking">
+
+   
+
+   <h1 class="heading-title">call or send us an email</h1>
+
+   <p class="form-para">
+      Get in touch with us so we can discuss how we can help you take the next big step for your business or ideas.
+      Call us or fill out the form below to send us an emai with your enquiry.
+   </p>
+
+   <h1 class="mobile__no"><a href="tel:0404646323">Call Us: 0404646323</a></h1>
+
+   <form  method="post" class="book-form" onsubmit="contact(event)">
+
+      <div class="flex">
+         <div class="inputBox">
+            <span>Name :</span>
+            <input type="text" placeholder="Enter your name" name="user_name" required>
+         </div>
+         <div class="inputBox">
+            <span>Email :</span>
+            <input type="email" placeholder="Enter your email" name="user_email" required>
+         </div>
+         <div class="inputBox">
+            <span>Message :</span> <br>
+            <textarea type="number" placeholder="What would you like to ask?" name="message" required></textarea>
+         </div>
+         
+      </div>
+
+      <button id="contact__submit" class="btn form__submit">
+         Send
+       </button>
+
+       <h1 class="form-msg form-hidden">Thank you for contacting us! We will respond soon. Have a wonderful day!</h1>
+
+   </form>
+  
+
+</section>
+
+
+
+<section class="footer">
+
+   <div class="box-container">
+
+      <div class="box">
+         <h3>Quick Links</h3>
+         <a href="index.html"> <i class="fas fa-angle-right"></i> Home</a>
+         <a href="about.html"> <i class="fas fa-angle-right"></i> About</a>
+         <a href="services.html"> <i class="fas fa-angle-right"></i> Services</a>
+         <a href="contact.html"> <i class="fas fa-angle-right"></i> Contact</a>
+      </div>
+
+      <div class="box">
+         <h3>Contact Info</h3>
+         <a href="tel:0404646323"> <i class="fas fa-phone"></i> 0404646323 </a>
+         <a href="mailto:webprofessor@outlook.com"> <i class="fas fa-envelope"></i> webprofessor@outlook.com </a>
+         <a href="#"> <i class="fas fa-map"></i> Sydney, Australia</a>
+      </div>
+
+      <div class="box">
+         <h3>Follow Us</h3>
+         <a href="#"> <i class="fab fa-facebook-f"></i> Facebook </a>
+         <a href="#"> <i class="fab fa-twitter"></i> Twitter </a>
+         <a href="#"> <i class="fab fa-instagram"></i> Instagram </a>
+         <a href="#"> <i class="fab fa-linkedin"></i> Linkedin </a>
+      </div>
+
+   </div>
+
+   <div class="credit"> Created by <span>The Web Professor</span> | all rights reserved! </div>
+
+</section>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
